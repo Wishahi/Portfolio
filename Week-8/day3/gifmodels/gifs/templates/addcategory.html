@@ -1,8 +1,0 @@
-<form method="POST" action = "{% url 'uploadcategory' %}" enctype="multipart/form-data">
-    {% csrf_token %}
-
-    <table>
-      {{form}}
-    </table>
-    <input type="submit" value="Submit form">
-  </form>
